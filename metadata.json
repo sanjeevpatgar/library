@@ -1,0 +1,6 @@
+{
+  "name": "Athenaeum — Library Management System",
+  "description": "Institutional library operations, catalog management, patron circulation, and acquisitions console.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

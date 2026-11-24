@@ -1,0 +1,155 @@
+---
+name: Library Management System Design System
+colors:
+  surface: '#f7f9fb'
+  surface-dim: '#d8dadc'
+  surface-bright: '#f7f9fb'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f4f6'
+  surface-container: '#eceef0'
+  surface-container-high: '#e6e8ea'
+  surface-container-highest: '#e0e3e5'
+  on-surface: '#191c1e'
+  on-surface-variant: '#454652'
+  inverse-surface: '#2d3133'
+  inverse-on-surface: '#eff1f3'
+  outline: '#757684'
+  outline-variant: '#c5c5d4'
+  surface-tint: '#4355b9'
+  primary: '#24389c'
+  on-primary: '#ffffff'
+  primary-container: '#3f51b5'
+  on-primary-container: '#cacfff'
+  inverse-primary: '#bac3ff'
+  secondary: '#505f76'
+  on-secondary: '#ffffff'
+  secondary-container: '#d0e1fb'
+  on-secondary-container: '#54647a'
+  tertiary: '#3b4358'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#525a70'
+  on-tertiary-container: '#cad2ec'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dee0ff'
+  primary-fixed-dim: '#bac3ff'
+  on-primary-fixed: '#00105c'
+  on-primary-fixed-variant: '#293ca0'
+  secondary-fixed: '#d3e4fe'
+  secondary-fixed-dim: '#b7c8e1'
+  on-secondary-fixed: '#0b1c30'
+  on-secondary-fixed-variant: '#38485d'
+  tertiary-fixed: '#dae2fd'
+  tertiary-fixed-dim: '#bec6e0'
+  on-tertiary-fixed: '#131b2e'
+  on-tertiary-fixed-variant: '#3f465c'
+  background: '#f7f9fb'
+  on-background: '#191c1e'
+  surface-variant: '#e0e3e5'
+typography:
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+  headline-md:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+  label-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+  code:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 24px
+  margin: 32px
+  space-xs: 4px
+  space-sm: 8px
+  space-md: 16px
+  space-lg: 24px
+  space-xl: 32px
+---
+
+## Brand & Style
+
+This design system delivers a professional, highly reliable experience optimized for modern library operations, institutional search, and asset tracking. The brand personality is grounded, trustworthy, and precise—evoking institutional clarity combined with modern SaaS efficiency. 
+
+The chosen design style follows a **Corporate / Modern** framework, prioritizing zero ambiguity, exceptional legibility, and high-contrast systematic components that reduce cognitive load for librarians and patrons alike.
+
+## Colors
+
+The palette is anchored by a commanding indigo primary (`#3F51B5`) paired with professional slate tones (`#64748B`, `#0F172A`) for optimal institutional contrast. Surfaces utilize clean, crisp light backgrounds (`#F8FAFC`) ensuring that all catalog data, status badges, and action triggers maintain WCAG AAA compliance.
+
+## Typography
+
+Using Inter exclusively guarantees maximum clarity across dense data tables, book catalog grids, and administrative dashboards. Type scales follow strict mathematical proportions to preserve vertical rhythm and effortless scanning.
+
+## Layout & Spacing
+
+A 12-column fluid grid system structures the application, optimized for high-density administrative workflows and expansive catalog browsing. Consistent 24px gutters and 32px outer margins provide generous breathing room without sacrificing information density. Spacing tokens strictly govern padding and gaps to maintain consistent component alignment.
+
+## Elevation & Depth
+
+Visual hierarchy is communicated via clean structural boundaries and subtle tonal separation rather than heavy drop shadows. Interactive cards and sticky table headers utilize low-contrast outlines (`1px solid #E2E8F0`) and crisp surface elevation layers to clearly distinguish interactive targets from background canvases.
+
+## Shapes
+
+With a roundedness factor of `1`, UI elements maintain a subtle, professional curvature (`0.25rem` base, `0.5rem` for cards). This avoids overly playful bubbles while removing harsh 90-degree corners, ensuring an approachable yet thoroughly institutional aesthetic.
+
+## Components
+
+### Buttons
+Primary actions use the indigo seed color with high-contrast white text, utilizing 0.25rem rounded corners. Secondary actions feature ghost or slate-outlined variants that emphasize structural clarity over decoration.
+
+### Chips & Status Badges
+Status indicators (e.g., "Available", "Checked Out", "Overdue", "Reserved") must use high-contrast pill or soft-rounded badges with clear semantic color pairings (indigo for general states, slate for neutral metadata).
+
+### Input Fields
+Form inputs feature a crisp 1px border, clear label positioning above the field, and distinct focus states highlighted by the primary indigo ring to ensure accessibility during rapid check-in/check-out workflows.
+
+### Cards
+Catalog and asset cards feature clean white surfaces, subtle 1px slate-200 borders, and structured internal padding to display book metadata, cover thumbnails, and availability actions cleanly.
+
+### Lists & Tables
+Data-heavy views rely on high-contrast alternating row borders, tabular numeric formatting, and sticky headers for efficient scanning of large inventory databases.

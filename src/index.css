@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --color-surface: #f7f9fb;
+  --color-surface-dim: #d8dadc;
+  --color-surface-bright: #f7f9fb;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f2f4f6;
+  --color-surface-container: #eceef0;
+  --color-surface-container-high: #e6e8ea;
+  --color-surface-container-highest: #e0e3e5;
+
+  --color-on-surface: #191c1e;
+  --color-on-surface-variant: #454652;
+  --color-inverse-surface: #2d3133;
+  --color-inverse-on-surface: #eff1f3;
+
+  --color-outline: #757684;
+  --color-outline-variant: #c5c5d4;
+
+  --color-primary: #24389c;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #3f51b5;
+  --color-on-primary-container: #cacfff;
+  --color-primary-fixed: #dee0ff;
+  --color-primary-fixed-dim: #bac3ff;
+  --color-on-primary-fixed: #00105c;
+  --color-on-primary-fixed-variant: #293ca0;
+
+  --color-secondary: #505f76;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #d0e1fb;
+  --color-on-secondary-container: #54647a;
+  --color-secondary-fixed: #d3e4fe;
+  --color-on-secondary-fixed: #0b1c30;
+
+  --color-tertiary: #3b4358;
+  --color-tertiary-container: #525a70;
+  --color-on-tertiary-container: #cad2ec;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Subtle institutional scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5c5d4;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #757684;
+}
